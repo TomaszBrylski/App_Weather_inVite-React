@@ -16,7 +16,7 @@ const WeatherDisplay = ({ weatherData, error }) => {
   return (
     <div className="weather" style={{ display: "block" }}>
       <img
-        src={`/images/${weatherData.weatherIcon}.png`}
+        src={`./images/${weatherData.weatherIcon}.png`}
         className="weather-icon"
         alt="weather icon"
       />
@@ -24,14 +24,14 @@ const WeatherDisplay = ({ weatherData, error }) => {
       <h2 className="city">{weatherData.city}</h2>
       <div className="details">
         <div className="col">
-          <img src="/images/humidity.png" alt="humidity icon" />
+          <img src="./images/humidity.png" alt="humidity icon" />
           <div>
             <p className="humidity">{weatherData.humidity}%</p>
             <p>Humidity</p>
           </div>
         </div>
         <div className="col">
-          <img src="/images/wind.png" alt="wind icon" />
+          <img src="./images/wind.png" alt="wind icon" />
           <div>
             <p className="wind">{weatherData.windSpeed} km/h</p>
             <p>Wind Speed</p>
