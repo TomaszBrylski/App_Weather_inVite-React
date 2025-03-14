@@ -24,13 +24,13 @@ A modern weather application built with React that shows current weather conditi
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/TWOJA-NAZWA-UŻYTKOWNIKA/NAZWA-REPOZYTORIUM.git
+git clone https://github.com/YOUR-USERNAME/REPOSITORY-NAME.git
 ```
 
 2. Install dependencies:
 
 ```bash
-cd NAZWA-REPOZYTORIUM
+cd REPOSITORY-NAME
 npm install
 ```
 
