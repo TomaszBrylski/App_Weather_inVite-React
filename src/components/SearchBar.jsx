@@ -15,7 +15,7 @@ const SearchBar = ({ onSearch }) => {
   };
 
   const handleInput = (event) => {
-    event.target.value = event.target.value.replace(/[^a-zA-Z]/g, "");
+    event.target.value = event.target.value.replace(/[^a-zA-Z\s]/g, "");
   };
 
   const handleClick = () => {
